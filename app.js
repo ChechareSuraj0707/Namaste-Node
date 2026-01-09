@@ -1,5 +1,6 @@
+const calculateSum = require("./sum");
 var name = "Namaste World";
 var a = 10;
 var b = 20;
-console.log(name);  
-console.log(a + b);
+console.log(name);
+calculateSum(a, b);
